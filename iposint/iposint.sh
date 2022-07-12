@@ -54,5 +54,6 @@ echo -e "\e[35mScanning...\e[0m"
 echo
 nmap -Pn -sT $IP -p $P
 echo
-echo -e "\e[35mDone! Exiting.\e[0m"
+echo -e "\e[35mDone! Hit enter to Exit.\e[0m"
+read exiting
 exit && clear
